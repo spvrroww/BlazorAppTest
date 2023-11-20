@@ -1,0 +1,13 @@
+{
+  "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": [ "/_framework/*", "/css/*", "*.{js,map,css,png,ico,svg}" ]
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  ]
+}
